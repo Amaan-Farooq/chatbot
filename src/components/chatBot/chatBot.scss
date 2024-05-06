@@ -1,0 +1,42 @@
+.chatbot-container {
+  height: 100vh;
+  .conversation-container {
+    height: 80vh;
+    width: 50vw;
+  }
+  .chat-box {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #ffffff;
+    height: 95%;
+    overflow: auto;
+    .user-msg {
+      background-color: gray;
+      margin-left: auto;
+      max-width: 50%;
+      width: fit-content;
+      padding: 5px;
+      border-radius: 10px;
+    }
+    .ai-msg {
+      background-color: purple;
+      margin-right: auto;
+      max-width: 50%;
+      width: fit-content;
+      padding: 5px;
+      border-radius: 10px;
+    }
+  }
+  .input-container {
+    height: 5%;
+    .user-input-field {
+      width: 80%;
+    }
+    .upload-btn {
+      width: 20%;
+      height: 100%;
+      padding: 2px;
+    }
+  }
+}
